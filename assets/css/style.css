@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(5, 26, 218, 0.91);
+  background: rgba(22, 77, 148, 0.91);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #eeff03;
+  border-bottom: 4px solid #eeff00;
 }
 
 #hero h2 {
@@ -432,12 +432,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: rgb(0, 110, 236);
-  background: #fbff04b4;
+  color: rgba(22, 77, 148);
+  background: #ffffff;
 }
 
 #hero .btn-get-started:hover {
-  background: #d9ff00;
+  background: #eeff00;
 }
 
 #hero .animated {
@@ -701,7 +701,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #e21313;
+  color: #164D94;
   margin-bottom: 15px;
 }
 
@@ -716,19 +716,19 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #e60909;
+  border: 2px solid #164D94;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #f30606;
+  color: #164D94;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #04c9ec;
-  border-color: #ff0000;
+  background: #eeff00;
+  border-color: #eeff00;
 }
 
 .about .icon-box:hover .icon i {
