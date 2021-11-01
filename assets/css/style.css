@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #dd0c0c;
+  color: #13dd0c;
   text-decoration: none;
 }
 
@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1acc8d;
-  border-top-color: #d2f9eb;
+  border: 6px solid #ece909;
+  border-top-color: #1f5ee7;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ff0000;
+  background: #ffe600;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #2be4a2;
+  background: #2b3ee4;
   color: #fff;
 }
 
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(22, 77, 148, 0.9);
 }
 
 #header.header-transparent {
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255, 255, 255);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #e9f814;
+  background-color: #eeff00;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #164D94;
+  color: #941616;
 }
 
 .navbar .dropdown ul a i {
@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
 }
 
 #hero h1 span {
@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
   margin-bottom: 40px;
   font-size: 24px;
 }
@@ -767,7 +767,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#65fd3f 50%, rgba(212, 7, 7, 0.4) 52%);
+  background: radial-gradient(#fbff00 50%, rgb(22, 77, 148) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -808,14 +808,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(71, 228, 9, 0.7);
+  border: 5px solid rgba(255, 255, 255, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #05ff12;
+  border-left: 15px solid #164D94;
   transform: scale(20);
 }
 
